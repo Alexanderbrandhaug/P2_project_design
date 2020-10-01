@@ -19,9 +19,6 @@ h2{
     margin-left: 5px;
 }
 
-h3{
-    margin-left: 5px;
-}
 
 ol{
     margin-right:30px;
@@ -35,6 +32,10 @@ footer {
 
 ul {
     list-style-type: square;
+}
+
+p {
+    margin-left:5px;
 }
 
 img {

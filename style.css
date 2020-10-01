@@ -1,5 +1,5 @@
 body{
-    font-family: Verdana, Helvetica, serif;
+    font-family: Helvetica, Verdana, serif;
     margin: auto;
     width:700px;
     background-color: #FAF0E6;
@@ -23,12 +23,9 @@ h3{
     margin-left: 5px;
 }
 
-p{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+ol{
+    margin-right:30px;
 }
-
 footer {
     position:absolute;
     margin-top: 10px;
@@ -41,12 +38,19 @@ ul {
 }
 
 img {
-    padding-left: 15px;
     height: auto;
-    max-width: 401px;
+    max-width: 500px;
+    margin-bottom:10px;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: nowrap;
+figcaption{
+    margin-bottom:20px;
+    font-style:italic;
+}
+
+.imgbox{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
 }

@@ -13,16 +13,17 @@ body{
     margin-bottom:10px;
 }
 
+
 h2{
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 5px;
 }
 
 
 ol{
     margin-right:30px;
 }
+
 footer {
     position:absolute;
     margin-top: 10px;
@@ -30,13 +31,10 @@ footer {
     font-size: 15px;
 }
 
-ul {
+ul ul {
     list-style-type: square;
-}
+  }
 
-p {
-    margin-left:5px;
-}
 
 img {
     height: auto;
@@ -54,4 +52,23 @@ figcaption{
     flex-direction:column;
     justify-content: center;
     align-items:center;
+}
+
+table{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:left;
+}
+th{
+    border: 1px dotted black;
+    font-weight:normal;
+}
+
+tr:nth-child(even) {
+    background-color: #fddfc0;
+  }
+
+tr:first-child{
+    font-weight:bold;
 }
